@@ -272,7 +272,6 @@ function ProductList({ onHomeClick }) {
 };
   
     return (
-        <div>
             <div className="navbar" style={styleObj}>
                 <div className="tag">
                     <div className="luxury">
@@ -347,9 +346,9 @@ function ProductList({ onHomeClick }) {
                 ) : (
                 <CartItem onContinueShopping={handleContinueShopping} />
                 )}
-                 
-              
+            </div>      
         </div>
     );
+}
 
 export default ProductList;
